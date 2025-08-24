@@ -14,7 +14,7 @@ class Queue {
         arr[end] = x;
         currSize++;
     }
-
+    
     public int pop(){
         if(currSize == 0){
             return -1; // queue empty
@@ -37,7 +37,7 @@ class Queue {
     }
 
     public static void main(String args[]){
-        Queue myq = new Queue();
+        Queue  myq = new Queue();
 
         myq.push(1);
         myq.push(3);
