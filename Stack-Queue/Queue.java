@@ -36,6 +36,8 @@ class Queue {
         return currSize;
     }
 
+    //main class
+
     public static void main(String args[]){
         Queue  myq = new Queue();
 
